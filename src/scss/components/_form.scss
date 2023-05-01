@@ -1,0 +1,63 @@
+@use '../abstracts/variables' as v;
+
+.form {
+    width: 100%;
+    fieldset {
+        border: none;
+        legend {
+            text-align: center;
+            border: none;
+            font-weight: bold;
+            font-size: 1.6rem;
+            margin-bottom: 4rem;
+        }
+        .containerForm {
+            margin-bottom: 1rem;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+            &.remember {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                gap: 1rem;
+                margin-top: 3rem;
+                label {
+                    margin: 0;
+                    font-size: 1.4rem;
+                }
+                input {
+                    margin: 0;
+                    padding: 0;
+                }
+            }
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            font-size: 1.6rem;
+        }
+        input {
+            &:not([type="checkbox"]) {
+                display: block;
+                width: 100%;
+                padding: 1rem;
+                outline: none;
+            }
+            &[type="submit"] {
+                font-size: 1.8rem;
+                font-weight: bold;
+                margin-top: 3rem;
+                border: .2rem solid v.$black;
+                -webkit-text-stroke: .13rem v.$black;
+                color: v.$white;
+            }
+        }
+        .formHelp {
+            display: block;
+            margin-top: 3rem;
+            font-size: 1.6rem;
+            color: v.$black;
+        }
+    }
+}

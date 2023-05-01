@@ -1,0 +1,106 @@
+@use '../abstracts/variables' as v;
+
+.products {
+    &__body {
+        width: 100%;
+        max-width: 37.5rem;
+        margin: 0 auto;
+    }
+    &__title {
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+    }
+    .containerProducts {
+        &__body {
+            width: 100%;
+            max-width: 37.5rem;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+    }
+}
+
+.card {
+    border: .1rem solid v.$black;
+    padding: 1rem 1rem 0 1rem;
+    position: relative;
+    &__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .imgProduct {
+        width: 100%;
+        height: 15rem;
+        border: .1rem solid v.$black;
+        background-color: v.$bgGray;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .contentProduct {
+        text-align: center;
+        h3 {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+    }
+    .btnAdd {
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        background-color: v.$bgGray;
+        color: v.$white;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 5rem;
+        position: relative;
+        .numMarket {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 5rem;
+            padding: .5rem;
+            position: absolute;
+            top: -.5rem;
+            right: -.5em;
+            background-color: yellow;
+            color: v.$black;
+            font-size: 1.2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        // width: 3rem;
+        // height: 3rem;
+        // position: relative;
+        // margin-left: auto;
+        // left: 1.2rem;
+        // top: .2rem;
+        // &::before,
+        // &::after {
+        //     content: '';
+        //     display: block;
+        //     width: 1.5rem;
+        //     height: .1rem;
+        //     position: absolute;
+        //     top: 50%;
+        //     left: 50%;
+        //     background-color: v.$white;
+        // }
+        // &::before {
+        //     transform: translate(-50%,-50%);
+        // }
+        // &::after {
+        //     transform: translate(-50%,-50%) rotate(90deg);
+        // }
+    }
+}

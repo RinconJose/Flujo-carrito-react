@@ -1,0 +1,66 @@
+{
+    "products": [
+        {
+            "name": "Arepa",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ducimus!",
+            "quantity": 5,
+            "favorite": 5
+        },
+        {
+            "name": "Empanada",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ducimus!",
+            "quantity": 7,
+            "favorite": 2
+        },
+        {
+            "name": "Chorizo",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ducimus!",
+            "quantity": 7,
+            "favorite": 5
+        },
+        {
+            "name": "Pastel",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ducimus!",
+            "quantity": 2,
+            "favorite": 1
+        },
+        {
+            "name": "Pasta",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ducimus!",
+            "quantity": 8,
+            "favorite": 4
+        },
+        {
+            "name": "Granos",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ducimus!",
+            "quantity": 2,
+            "favorite": 3
+        },
+        {
+            "name": "Pollo",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ducimus!",
+            "quantity": 9,
+            "favorite": 2
+        },
+        {
+            "name": "Ensalada",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ducimus!",
+            "quantity": 4,
+            "favorite": 3
+        },
+        {
+            "name": "Carne",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ducimus!",
+            "quantity": 2,
+            "favorite": 5
+        },
+        {
+            "name": "Queso",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, ducimus!",
+            "quantity": 8,
+            "favorite":4
+        }
+    ],
+    "usuario": [
+    ]
+}
